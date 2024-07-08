@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+/* header start */
+header{
+    height: 837px;
+    border: 1px solid red;
+    background-image: url("");
+    
+}
+
+
+/* external styles start */
+.dark-2{
+    color: rgba(71, 71, 71);
+}
+.btn-primary{
+    background-color: rgb(253, 110, 10);
+    color: white;
+    padding: 17px 33px;
+    font-size: 16px;
+    /* border: none; */
+    border-style: none;
+    border-radius: 5px;
+}
+/* external styles end */
+
+
+
+/* nav area start */
+
+h3{
+    font-size: 45px;
+
+
+}
+.r{
+    color: rgb(253, 110, 10);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: 30px 30px auto 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    display: flex;
+
+}
+nav ul li a{
+    text-decoration: none;
+    /* background-color: antiquewhite; */
+    padding: 17px 10px;
+    text-align: center;
+    
+}
+
+/* nav area end */
+
+.test{
+    background-image: url("i");
+}
