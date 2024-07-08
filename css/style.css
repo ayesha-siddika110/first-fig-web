@@ -15,7 +15,7 @@ header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    margin: 20px 0px 20px 30px;
+    margin: 20px 0px 150px 30px;
     
 }
 
@@ -119,31 +119,55 @@ p{
 /* header images */
 .header-images{
     /* background-color: aqua; */
-    width: 580px;
+    /* width: 580px; */
 }
 
 
 /* About sesction start */
 .about{
-    /* display: flex; */
-    width: 1140px;
     height: 550px;
+    width: 1150px;
     background-color: #FFF8F3;
-    /* background-color: #757575; */
     margin: auto;
-    text-align: center;
+    border: 1px solid #FFF8F3;
+/* border problem */
+
 }
 .about-center{
     height: 287px;
     width: 827px;
     background-color: white;
-    margin: 20px auto;
-
+    /* margin: auto; */
+    
+    
+    margin: 150px;
     
     border: 1px solid black;
 }
+.about-content{
+    text-align: center;
+
+}
 .about-box{
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 /* About section end */
+
+
+
+/* .box1{
+    height: 500px;
+    width: 700px;
+    background-color: aqua;
+    margin: auto;
+}
+.box2{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(177, 116, 37);
+    margin: auto;
+} */
