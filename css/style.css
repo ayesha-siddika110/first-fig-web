@@ -262,4 +262,58 @@ hr{
 .resume-cv{
     display: block;
     margin: auto;
+    margin-top: 40px;
+}
+
+/* resume end */
+
+
+
+/* footer start */
+
+footer{
+
+    margin-top: 100px;
+    display: flex;
+    height: 690px;
+    background-color:  #FFF8F3;
+}
+.footer1{
+
+    width: 50%;
+    
+    
+}
+.footer1 h3{
+    margin-top: 250px;
+    
+    font-size: 35px;
+}
+
+.footer1 h3, .peragraph, .icone{
+    padding-top: 10px;
+    margin-left: 125px;
+}
+.footer2{
+
+    width: 50%;
+}
+
+.footer2 >h3{
+    margin: 90px auto 30px 50px ;
+    font-size: 35px;
+}
+
+
+/* form */
+
+.form-puron-koro{
+    margin: 10px auto 10px 50px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+.footer-button{
+    margin: 10px auto 10px 50px;
 }
