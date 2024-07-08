@@ -59,7 +59,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     margin: 30px 30px 10px 150px;
 }
 nav ul{
@@ -69,7 +69,7 @@ nav ul li{
     list-style: none;
     margin-right: 30px;
     display: flex;
-
+    
 }
 nav ul li a{
     text-decoration: none;
@@ -91,8 +91,8 @@ nav ul li a{
     /* background-color: blueviolet; */
     margin: 8% 10% 10% 12%;
     text-align: left;
-
-
+    
+    
 }
 
 h1{
@@ -106,14 +106,14 @@ h1{
 .header-content button{
     margin-top: 15px;
     margin-right: 8px;
-
+    
 }
 p{
     padding-top: 10px;
     color: #757575;
     font-size: 16px;
     
-
+    
 }
 
 /* header images */
@@ -146,7 +146,7 @@ p{
 }
 .about-content{
     text-align: center;
-
+    
 }
 .about-box{
     margin-top: 10px;
@@ -184,13 +184,13 @@ p{
 }
 .box{
     width: 220px;
-    height: 270px;
+    height: 290px;
     border-radius: 10px;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
     /* margin-right: 10px; */
     /* border: 1px solid rgb(92, 8, 8); */
     padding: 30px 25px;
-
+    
 }
 .box h4{
     padding-top: 30px;
@@ -204,3 +204,61 @@ p{
 
 
 /* experiance section  end*/
+
+/* resume section start here */
+
+.resume{
+    
+    width: 1140px;
+    height: 716px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.resume h3{
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+.summary{
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.bold{
+    font-size: 25px;
+    font-weight: bold;
+}
+.dark-3-semibold{
+
+    font-size: 20px;
+    font-weight: 400;
+}
+.dark-3-small{
+    font-size: 16px;
+}
+.resume-section1{
+    width: 40%;
+
+}
+.resume-section-0_1{
+
+}
+.resume-section1 div h3, h4, h5, p{
+    padding-top: 15px;
+}
+.resume-section1 div h3{
+    padding-bottom: 20px;
+}
+hr{
+    width: 110%;
+}
+.resume-cv{
+    display: block;
+    margin: auto;
+}
