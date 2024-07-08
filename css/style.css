@@ -11,8 +11,11 @@ body{
 /* header start */
 header{
     height: 837px;
-    border: 1px solid red;
-    background-image: url("");
+    /* border: 1px solid red; */
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 20px 0px 20px 30px;
     
 }
 
@@ -30,6 +33,16 @@ header{
     border-style: none;
     border-radius: 5px;
 }
+.btn-secondary{
+    
+    color: rgb(253, 110, 10);
+    background-color: white;
+    padding: 17px 20px;
+    font-size: 16px;
+    /* border: none; */
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 5px;
+}
 /* external styles end */
 
 
@@ -38,8 +51,6 @@ header{
 
 h3{
     font-size: 45px;
-
-
 }
 .r{
     color: rgb(253, 110, 10);
@@ -48,8 +59,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
-    margin: 30px 30px auto 30px;
+
+    margin: 30px 30px 10px 150px;
 }
 nav ul{
     display: flex;
@@ -70,6 +81,69 @@ nav ul li a{
 
 /* nav area end */
 
-.test{
-    background-image: url("i");
+/* header content */
+.header-mid-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
+.header-content{
+    /* background-color: blueviolet; */
+    margin: 8% 10% 10% 12%;
+    text-align: left;
+
+
+}
+
+h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+.header-content h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.header-content button{
+    margin-top: 15px;
+    margin-right: 8px;
+
+}
+p{
+    padding-top: 10px;
+    color: #757575;
+    font-size: 18px;
+    
+
+}
+
+/* header images */
+.header-images{
+    /* background-color: aqua; */
+    width: 580px;
+}
+
+
+/* About sesction start */
+.about{
+    /* display: flex; */
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    /* background-color: #757575; */
+    margin: auto;
+    text-align: center;
+}
+.about-center{
+    height: 287px;
+    width: 827px;
+    background-color: white;
+    margin: 20px auto;
+
+    
+    border: 1px solid black;
+}
+.about-box{
+    display: flex;
+    justify-content: space-around;
+}
+/* About section end */
